@@ -106,7 +106,7 @@ class Server {
   };
 
   private unwatchConfigForChanges = (configPath: string) => {
-    fs.unwatchFile(configPath);
+    // fs.unwatchFile(configPath);
   };
 
   private parseConfig = (configData: any): IConfig => {
